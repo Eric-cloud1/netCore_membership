@@ -1,0 +1,23 @@
+Z:\Work\Visual Studio 2017\MemberAPI\obj\Debug\netcoreapp2.0\MemberApi.csproj.CoreCompileInputs.cache
+Z:\Work\Visual Studio 2017\MemberAPI\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+Z:\Work\Visual Studio 2017\MemberAPI\obj\Debug\netcoreapp2.0\MemberApi.AssemblyInfoInputs.cache
+Z:\Work\Visual Studio 2017\MemberAPI\obj\Debug\netcoreapp2.0\MemberApi.AssemblyInfo.cs
+Z:\Work\Visual Studio 2017\MemberAPI\bin\Debug\netcoreapp2.0\MemberApi.deps.json
+Z:\Work\Visual Studio 2017\MemberAPI\bin\Debug\netcoreapp2.0\MemberApi.runtimeconfig.json
+Z:\Work\Visual Studio 2017\MemberAPI\bin\Debug\netcoreapp2.0\MemberApi.runtimeconfig.dev.json
+Z:\Work\Visual Studio 2017\MemberAPI\bin\Debug\netcoreapp2.0\MemberApi.dll
+Z:\Work\Visual Studio 2017\MemberAPI\bin\Debug\netcoreapp2.0\MemberApi.pdb
+Z:\Work\Visual Studio 2017\MemberAPI\obj\Debug\netcoreapp2.0\MemberApi.dll
+Z:\Work\Visual Studio 2017\MemberAPI\obj\Debug\netcoreapp2.0\MemberApi.pdb
+Z:\Amazon Drive\Workspace\NetCore\MemberAPI\obj\Debug\netcoreapp2.0\MemberApi.csproj.CoreCompileInputs.cache
+Z:\Amazon Drive\Workspace\NetCore\MemberAPI\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+Z:\Amazon Drive\Workspace\NetCore\MemberAPI\obj\Debug\netcoreapp2.0\MemberApi.AssemblyInfoInputs.cache
+Z:\Amazon Drive\Workspace\NetCore\MemberAPI\obj\Debug\netcoreapp2.0\MemberApi.AssemblyInfo.cs
+Z:\Amazon Drive\Workspace\NetCore\MemberAPI\obj\Debug\netcoreapp2.0\MemberApi.dll
+Z:\Amazon Drive\Workspace\NetCore\MemberAPI\obj\Debug\netcoreapp2.0\MemberApi.pdb
+Z:\Amazon Drive\Workspace\NetCore\MemberAPI\bin\Debug\netcoreapp2.0\MemberApi.deps.json
+Z:\Amazon Drive\Workspace\NetCore\MemberAPI\bin\Debug\netcoreapp2.0\MemberApi.runtimeconfig.json
+Z:\Amazon Drive\Workspace\NetCore\MemberAPI\bin\Debug\netcoreapp2.0\MemberApi.runtimeconfig.dev.json
+Z:\Amazon Drive\Workspace\NetCore\MemberAPI\bin\Debug\netcoreapp2.0\MemberApi.dll
+Z:\Amazon Drive\Workspace\NetCore\MemberAPI\bin\Debug\netcoreapp2.0\MemberApi.pdb
+Z:\Amazon Drive\Workspace\NetCore\MemberAPI\obj\Debug\netcoreapp2.0\MemberApi.csprojResolveAssemblyReference.cache

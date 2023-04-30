@@ -1,0 +1,75 @@
+﻿@model MemberApi.Models.Members.Contact
+
+@{
+    ViewData["Title"] = "Member Status";
+}
+
+<h2>Member Status</h2>
+
+<div>
+    <h4>Contact</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Zip)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Zip)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.State)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.State)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+    </dl>
+</div>
+
+@if (Model.Status != MemberApi.Models.Services.ContactStatus.Lockout)
+{
+    <form style="display:inline;" method="post">
+        <input type="hidden" name="id" value="@Model.ContactId" />
+        <input type="hidden" name="status" value="@MemberApi.Models.Services.ContactStatus.Lockout" />
+        <button type="submit"  asp-action="Post" class="btn btn-xs btn-success">Lockout</button>
+    </form>
+
+}
+
+@if (Model.Status != MemberApi.Models.Services.ContactStatus.Approved)
+{
+    <form style="display:inline;" method="post">
+        <input type="hidden" name="id" value="@Model.ContactId" />
+        <input type="hidden" name="status" value="@MemberApi.Models.Services.ContactStatus.Approved" />
+        <button type="submit" asp-action="Post" class="btn btn-xs btn-success">Approve</button>
+    </form>
+}
+
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ContactId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,30 @@
+﻿@model MemberApi.Models.ViewModels.ProductsListViewModel
+
+
+    <div class="row m-1 p-1">
+        <div id="categories" style="float:left;width:25%;">
+            <a class="btn btn-block btn-secondary"
+               asp-action="Create"
+               asp-controller="Product"
+               asp-route-category="">
+                Create New
+            </a>
+            @await Component.InvokeAsync("NavigationMenu")
+        </div>
+        <div style="float:right;width:75%">
+            @foreach (var p in Model.Product)
+            {
+                @Html.Partial("ProductSummary", p)
+            }
+        </div>
+    </div>
+
+    <div page-model="@Model.PagingInfo" page-action="List" page-classes-enabled="true"
+         page-class="btn" page-class-normal="btn-secondary"
+         page-class-selected="btn-primary" page-url-category="@Model.CurrentCategory"
+         class="btn-group pull-right m-1">
+
+    </div>
+
+
+

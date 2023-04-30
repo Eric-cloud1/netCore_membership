@@ -1,0 +1,4 @@
+Z:\Work\Visual Studio 2017\MemberAPI\obj\Release\netcoreapp2.0\MemberApi.csproj.CoreCompileInputs.cache
+Z:\Work\Visual Studio 2017\MemberAPI\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+Z:\Work\Visual Studio 2017\MemberAPI\obj\Release\netcoreapp2.0\MemberApi.AssemblyInfoInputs.cache
+Z:\Work\Visual Studio 2017\MemberAPI\obj\Release\netcoreapp2.0\MemberApi.AssemblyInfo.cs
